@@ -27,7 +27,7 @@ npm 10+
 
 ### Run locally
 
-    git clone https://github.com/suyash/resona.git
+    git clone https://github.com/suyashnautiyal/resona.git
     cd resona
     npm install
     npm run dev
