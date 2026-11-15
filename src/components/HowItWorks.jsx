@@ -1,4 +1,3 @@
-// src/components/HowItWorks.jsx
 import { STEPS } from '../data/content'
 import { Container } from './Container'
 import { SectionHeading } from './SectionHeading'

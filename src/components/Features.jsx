@@ -1,4 +1,3 @@
-// src/components/Features.jsx
 import { FEATURES } from '../data/content'
 import { Container } from './Container'
 import { SectionHeading } from './SectionHeading'

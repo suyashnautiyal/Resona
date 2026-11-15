@@ -1,4 +1,3 @@
-// src/components/Footer.jsx
 import { BRAND, NAV_LINKS } from '../data/content'
 import { Container } from './Container'
 

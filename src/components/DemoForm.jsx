@@ -1,4 +1,3 @@
-// src/components/DemoForm.jsx
 import { useState } from 'react'
 import { Container } from './Container'
 import { SectionHeading } from './SectionHeading'
