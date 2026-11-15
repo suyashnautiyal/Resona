@@ -1,4 +1,3 @@
-// src/hooks/useScrollSpy.js
 import { useEffect, useState } from 'react'
 
 export function useScrollSpy(sectionIds) {
@@ -13,7 +12,7 @@ export function useScrollSpy(sectionIds) {
           }
         })
       },
-      // A section is "active" once it crosses the middle of the viewport.
+      
       { rootMargin: '-50% 0px -50% 0px' },
     )
 

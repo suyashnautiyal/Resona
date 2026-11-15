@@ -1,4 +1,3 @@
-// src/components/Navbar.jsx
 import { useEffect, useState } from 'react'
 import { BRAND, NAV_LINKS } from '../data/content'
 import { useScrollSpy } from '../hooks/useScrollSpy'

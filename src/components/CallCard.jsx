@@ -1,4 +1,3 @@
-// src/components/CallCard.jsx
 export function CallCard() {
   return (
     <div className="rounded-2xl border border-slate-200 bg-white p-6 shadow-xl">

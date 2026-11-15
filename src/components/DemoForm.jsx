@@ -16,12 +16,10 @@ export function DemoForm() {
     const validationErrors = validateDemoForm(formData)
     setErrors(validationErrors)
 
-    // Only "send" if there are zero errors
     if (Object.keys(validationErrors).length > 0) return
 
     setPending(true)
 
-    // Simulate a network request
     setTimeout(() => {
       setPending(false)
       setSubmitted(true)
@@ -32,13 +30,11 @@ export function DemoForm() {
     const { name, value } = e.target
     setFormData((prev) => ({ ...prev, [name]: value }))
 
-    // Clear the error for this field the moment the user starts fixing it
     if (errors[name]) {
       setErrors((prev) => ({ ...prev, [name]: undefined }))
     }
   }
 
-  // Success screen — replaces the entire form
   if (submitted) {
     return (
       <section id="demo" className="bg-slate-50 py-20">
