@@ -27,7 +27,7 @@ npm 10+
 
 ### Run locally
 
-    git clone https://github.com/suyash/resona.git
+    git clone https://github.com/suyashnautiyal/resona.git
     cd resona
     npm install
     npm run dev
@@ -109,10 +109,12 @@ The optimized build lands in the dist/ folder.
 ## Screenshots
 
 ### Desktop
-![Desktop layout](screenshots/desktop.png)
+<img width="1468" height="801" alt="desktop" src="https://github.com/user-attachments/assets/861ee7bb-a7f5-46c0-a971-36b76e8585c0" />
+
 
 ### Mobile
-![Mobile layout](screenshots/mobile.png)
+<img width="557" height="751" alt="mobile" src="https://github.com/user-attachments/assets/cc1082dc-ddd5-40b7-a09b-0c908fab549f" />
+
 
 ## Scripts
 
